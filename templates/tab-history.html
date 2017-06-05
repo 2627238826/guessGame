@@ -1,0 +1,84 @@
+<ion-view view-title="参与记录">
+    <ion-header-bar align-title="center" class="bar-color">
+        <div class="buttons">
+            <div class="tbg-imgbox0">
+                <img src="img/userheader.jpg" width="35px;" height="35px;">
+            </div>
+        </div>
+        <h1 class="title">匣豆:999 流量:999M</h1>
+        <div class="buttons">
+            <button class="button button-outline header-btn">兑换</button>
+        </div>
+    </ion-header-bar>
+    <ion-header-bar class="bar bar-subheader history-subheader">
+        <div class="row">
+            <div class="col col-33 text-center yellow">竞猜次数<br>120次</div>
+            <div class="col col-33 text-center yellow">投注总额<br>1200</div>
+            <div class="col col-33 text-center yellow">当前收入<br>9999</div>
+        </div>
+    </ion-header-bar>
+  <ion-content has-bouncing="true">
+      <ul class="list list-top">
+          <li class="item" ng-click="lottery(0)">
+             <div class="textColor">
+                 <div class="text-left float font-size">2001期</div>
+                 <div class="text-right font-size">未开奖</div>
+             </div><p></p>
+              <div class="yellow">
+                  <div class="text-left float"><i class="icon ion-clock"></i> 倒计时 1:10:30</div>
+                  <div class="text-right textColor3">投注200匣豆</div>
+              </div>
+          </li>
+          <li class="item activated" ng-click="lottery(0)">
+              <div class="textColor">
+                  <div class="text-left float font-size">2002期</div>
+                  <div class="text-right font-size">未开奖</div>
+              </div><p></p>
+              <div class="yellow">
+                  <div class="text-left float"><i class="icon ion-clock"></i> 倒计时 1:10:30</div>
+                  <div class="text-right textColor3">投注200匣豆</div>
+              </div>
+          </li>
+          <li class="item" ng-click="lottery(1)">
+              <div class="textColor">
+                  <div class="text-left float font-size">2003期</div>
+                  <div class="text-right font-size yellow">中奖360匣豆</div>
+              </div><p></p>
+              <div class="textColor3">
+                  <div class="text-left float">2016-3-30 1:10:30</div>
+                  <div class="text-right">投注200匣豆</div>
+              </div>
+          </li>
+          <li class="item" ng-click="lottery(1)">
+              <div class="textColor">
+                  <div class="text-left float font-size">2004期</div>
+                  <div class="text-right font-size yellow">中奖360匣豆</div>
+              </div><p></p>
+              <div class="textColor3">
+                  <div class="text-left float">2016-3-30 1:10:30</div>
+                  <div class="text-right">投注200匣豆</div>
+              </div>
+          </li>
+          <li class="item" ng-click="lottery(2)">
+              <div class="textColor">
+                  <div class="text-left float font-size">2005期</div>
+                  <div class="text-right font-size">未中奖</div>
+              </div><p></p>
+              <div class="textColor3">
+                  <div class="text-left float">2016-3-30 1:10:30</div>
+                  <div class="text-right">投注200匣豆</div>
+              </div>
+          </li>
+          <li class="item" ng-click="lottery(2)">
+              <div class="textColor">
+                  <div class="text-left float font-size">2006期</div>
+                  <div class="text-right font-size">未中奖</div>
+              </div><p></p>
+              <div class="textColor3">
+                  <div class="text-left float">2016-3-30 1:10:30</div>
+                  <div class="text-right">投注200匣豆</div>
+              </div>
+          </li>
+      </ul>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,177 @@
+/* Empty. Add your own CSS if you like */
+
+/*公共样式*/
+html,body{
+   font-family: "Microsoft Yahei", "微软雅黑";
+    font-size: 14px;
+}
+.ion {
+    color: #9991C7 !important;
+}
+.textColor{
+     color: #9991C7 !important;
+ }
+.textColor2{
+    color: #000000 !important;
+}
+.textColor3{
+    color: #514A6C !important;
+}
+.content-color{
+    background-color: #27213B;
+    margin: 10px 0;
+}
+.clo-color{
+    background-color: #353247;
+}
+.clo-gdcolor{
+    background-color: #353247;
+}
+.clo-color2{
+    background-color: #FFB400;
+}
+.clo-gdcolor2{
+    background-color: #FFB400;
+}
+.yellow{
+    color: #FFB400 !important;
+}
+.bar-color{
+    background-color: #FFB400 !important;
+    color: #ffffff;
+}
+.tabs {
+    color: #9991C7 !important;
+    background-color: #27213B !important;
+}
+ion-footer-bar{
+    color: #9991C7 !important;
+    background-color: #27213B !important;
+}
+.bar-subfooter{
+    color: #9991C7 !important;
+    background-color: #27213B !important;
+}
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color:  #FF9C00;
+}
+ion-item{
+    background-color: #27213B !important;
+    color: #9A91C7 !important;
+    border-color: #353247 !important;
+}
+ion-content{
+    background-color: #1E1A28;
+}
+.content-left{
+    background-color: #27213B;
+}
+.border-line{
+    border-top: 1px solid #353247 !important;
+    padding: 10px 0 10px 0 !important;
+}
+hr{
+    border-color: #9991C7;
+}
+.badgeColor{
+    background-color: #FFB400;
+    color: #000000;
+}
+.badgeColor2{
+    background-color: #ffffff;
+    color: #000000;
+}
+.badgegdColor2{
+    background-color: #ffffff;
+    color: #000000;
+}
+.pupbar{
+    position: relative !important;
+}
+.history-subheader{
+    background-color: #27213B !important;
+    height: 64px;
+}
+.bar-subheader{
+    background-color: #27213B !important;
+}
+.list-top{
+    margin-top: 20px;
+}
+.list-top .item{
+    background-color: #1E1A28 !important;
+}
+.header-btn{
+    border: 1px solid #000000 !important;
+    color: #000000!important;
+}
+.float{
+    float: left;
+}
+.font-size{
+    font-size: 18px;
+}
+.blue {
+    background-color: blue;
+    height: 150px;
+}
+.green {
+    background-color: green;
+    height: 150px;
+}
+.pink {
+    background-color: pink;
+    height: 150px;
+}
+.box img{
+    height: 150px;
+    width: 100%;
+}
+.slide-subheader{
+    height: 205px;
+    padding: 0;
+}
+.slider-pager{
+    text-align: right !important;
+    bottom: 0;
+}
+.item{
+    border-color: #353247;
+}
+.activated{
+    border-color: #353247 !important;
+}
+
+.slider-pager .slider-pager-page {
+    display: inline-block;
+    margin: 0px 3px;
+    width: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+
+/*tab-guess.html 页面*/
+.tbg-leftheder{
+    height: 200px;width: 100%;text-align: center;background-color: #1E1A28;color: #9A91C7;
+}
+.tbg-imgbox0{
+    width: 35px;height: 35px;border-radius: 50%;overflow: hidden;border: 1px solid #ffffff;margin: 0 auto;
+}
+.tbg-imgbox{
+    width: 80px;height: 80px;border-radius: 50%;overflow: hidden;border: 1px solid #ffffff;margin: 0 auto;
+}
+.icon-floatr{
+    height: 10px;line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
